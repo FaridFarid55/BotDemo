@@ -21,7 +21,7 @@ namespace BotDemo
 
             // Submit the registration
             driver.FindElement(By.Name("websubmit")).Click();
-
+            Console.ReadLine();
             // Delay to complete the process
             Thread.Sleep(10000); // 10 seconds
         }
